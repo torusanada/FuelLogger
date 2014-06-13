@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "16D98B4D1930603A003616FB"
-               BuildableName = "app.app"
+               BuildableName = "FuelLog.app"
                BlueprintName = "app"
                ReferencedContainer = "container:app.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "16D98B4D1930603A003616FB"
-            BuildableName = "app.app"
+            BuildableName = "FuelLog.app"
             BlueprintName = "app"
             ReferencedContainer = "container:app.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "16D98B4D1930603A003616FB"
-            BuildableName = "app.app"
+            BuildableName = "FuelLog.app"
             BlueprintName = "app"
             ReferencedContainer = "container:app.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "16D98B4D1930603A003616FB"
-            BuildableName = "app.app"
+            BuildableName = "FuelLog.app"
             BlueprintName = "app"
             ReferencedContainer = "container:app.xcodeproj">
          </BuildableReference>

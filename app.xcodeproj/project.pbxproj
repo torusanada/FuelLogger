@@ -21,6 +21,9 @@
 		16D98B731930603A003616FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D98B551930603A003616FB /* UIKit.framework */; };
 		16D98B7B1930603A003616FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16D98B791930603A003616FB /* InfoPlist.strings */; };
 		16D98B7D1930603A003616FB /* appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D98B7C1930603A003616FB /* appTests.m */; };
+		16D98B8919306147003616FB /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D98B8719306147003616FB /* CustomCell.m */; };
+		16D98B8A19306147003616FB /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16D98B8819306147003616FB /* CustomCell.xib */; };
+		16D98B8D193070CE003616FB /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D98B8C193070CE003616FB /* AddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16D98B4E1930603A003616FB /* app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D98B4E1930603A003616FB /* FuelLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuelLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D98B511930603A003616FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		16D98B531930603A003616FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		16D98B551930603A003616FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -53,6 +56,11 @@
 		16D98B781930603A003616FB /* appTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "appTests-Info.plist"; sourceTree = "<group>"; };
 		16D98B7A1930603A003616FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		16D98B7C1930603A003616FB /* appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appTests.m; sourceTree = "<group>"; };
+		16D98B8619306147003616FB /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		16D98B8719306147003616FB /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		16D98B8819306147003616FB /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		16D98B8B193070CE003616FB /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		16D98B8C193070CE003616FB /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +100,7 @@
 		16D98B4F1930603A003616FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				16D98B4E1930603A003616FB /* app.app */,
+				16D98B4E1930603A003616FB /* FuelLog.app */,
 				16D98B6F1930603A003616FB /* appTests.xctest */,
 			);
 			name = Products;
@@ -115,8 +123,13 @@
 				16D98B601930603A003616FB /* AppDelegate.h */,
 				16D98B611930603A003616FB /* AppDelegate.m */,
 				16D98B631930603A003616FB /* Main.storyboard */,
+				16D98B8619306147003616FB /* CustomCell.h */,
+				16D98B8719306147003616FB /* CustomCell.m */,
+				16D98B8819306147003616FB /* CustomCell.xib */,
 				16D98B661930603A003616FB /* ViewController.h */,
 				16D98B671930603A003616FB /* ViewController.m */,
+				16D98B8B193070CE003616FB /* AddViewController.h */,
+				16D98B8C193070CE003616FB /* AddViewController.m */,
 				16D98B691930603A003616FB /* Images.xcassets */,
 				16D98B581930603A003616FB /* Supporting Files */,
 			);
@@ -169,7 +182,7 @@
 			);
 			name = app;
 			productName = app;
-			productReference = 16D98B4E1930603A003616FB /* app.app */;
+			productReference = 16D98B4E1930603A003616FB /* FuelLog.app */;
 			productType = "com.apple.product-type.application";
 		};
 		16D98B6E1930603A003616FB /* appTests */ = {
@@ -230,6 +243,7 @@
 			files = (
 				16D98B6A1930603A003616FB /* Images.xcassets in Resources */,
 				16D98B5C1930603A003616FB /* InfoPlist.strings in Resources */,
+				16D98B8A19306147003616FB /* CustomCell.xib in Resources */,
 				16D98B651930603A003616FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16D98B8D193070CE003616FB /* AddViewController.m in Sources */,
 				16D98B681930603A003616FB /* ViewController.m in Sources */,
 				16D98B621930603A003616FB /* AppDelegate.m in Sources */,
+				16D98B8919306147003616FB /* CustomCell.m in Sources */,
 				16D98B5E1930603A003616FB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,7 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -355,7 +371,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Toru Sanada (WYSZG4SX23)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Toru Sanada (WYSZG4SX23)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -365,7 +382,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "9C67BAE3-685B-4177-B561-FA3DE1A66883";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -379,7 +397,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "app/app-Prefix.pch";
 				INFOPLIST_FILE = "app/app-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FuelLog;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,7 +410,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "app/app-Prefix.pch";
 				INFOPLIST_FILE = "app/app-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FuelLog;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +474,7 @@
 				16D98B821930603A003616FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16D98B831930603A003616FB /* Build configuration list for PBXNativeTarget "appTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +483,7 @@
 				16D98B851930603A003616FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
